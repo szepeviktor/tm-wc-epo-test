@@ -1,0 +1,1469 @@
+
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   admin/class-tm-epo-admin-base.php                                                                                                                      
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                                                                      
+  111    Variable $_POST in isset() always exists and is not nullable.                                                                                          
+  367    Variable $state might not be defined.                                                                                                                  
+  368    Variable $postcode might not be defined.                                                                                                               
+  369    Variable $city might not be defined.                                                                                                                   
+  495    Parameter #1 $version1 of function version_compare expects string, string|false given.                                                                 
+  495    Parameter #3 ...$args of function array_map expects array, int given.                                                                                  
+  495    Parameter #4 ...$args of function array_map expects array, string given.                                                                               
+  497    Parameter #1 $version1 of function version_compare expects string, string|false given.                                                                 
+  501    Parameter #1 $text of function esc_attr expects string, array<string>|string given.                                                                    
+  520    Argument of an invalid type (array<int, string>|false) supplied for foreach, only iterables are supported.                                             
+  535    Parameter #2 $str of function explode expects string, string|null given.                                                                               
+  703    Access to an undefined property object::$post_parent.                                                                                                  
+  726    Parameter #1 $string of function get_gmt_from_date expects string, int|string given.                                                                   
+  832    Parameter #1 $var of function sizeof expects array|Countable, array|WP_Error given.                                                                    
+  835    Cannot access offset int on array|WP_Error.                                                                                                            
+  910    If condition is always true.                                                                                                                           
+  916    Call to an undefined method WC_Admin_Duplicate_Product::duplicate_product().                                                                           
+  1041   Cannot access property $id on WP_Screen|null.                                                                                                          
+  1068   Cannot access property $id on WP_Screen|null.                                                                                                          
+  1095   Call to function method_exists() with 'WC_Admin_Notices' and 'remove_all_notices' will always evaluate to false.                                       
+  1196   Cannot access property $post_type on (array)|WP_Post.                                                                                                  
+  1220   Cannot access property $post_type on (array)|WP_Post.                                                                                                  
+  1265   Function _tm_alter_attributes not found while trying to analyse it - autoloading is probably not configured properly.                                  
+  1265   Inner named functions are not supported by PHPStan. Consider refactoring to an anonymous function, class method, or a top-level-defined function. See  
+         issue #165 (https://github.com/phpstan/phpstan/issues/165) for more details.                                                                           
+  1272   Parameter #1 $input of function array_keys expects array, mix given.                                                                                   
+  1273   Parameter #2 $callback of function array_walk expects callable(): mixed, '_tm_alter_attributes' given.                                                 
+  1297   Result of && is always true.                                                                                                                           
+  1314   Parameter #1 $post_id of function update_post_meta expects int, int|WP_Error given.                                                                    
+  1315   Access to offset mixed on an unknown class mix.                                                                                                        
+  1315   Parameter #1 $post_id of function update_post_meta expects int, int|WP_Error given.                                                                    
+  1317   Parameter #1 $post_id of function get_post_meta expects int, int|WP_Error given.                                                                       
+  1383   Variable $_SESSION in isset() always exists and is not nullable.                                                                                       
+  1455   Undefined variable: $wp_error                                                                                                                          
+  1495   Access to offset mixed on an unknown class mix.                                                                                                        
+ ------ ------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   admin/class-tm-epo-admin-csv.php                                          
+ ------ -------------------------------------------------------------------------- 
+  8      Right side of || is always false.                                         
+  237    Undefined variable: $value                                                
+  272    Parameter #2 $offset of function fseek expects int, int|false given.      
+  292    Left side of && is always false.                                          
+  301    Parameter #1 $str of function trim expects string, int|string given.      
+  365    Parameter #2 $str of function explode expects string, int|string given.   
+  402    Variable $_SESSION in isset() always exists and is not nullable.          
+  491    Variable $_SESSION in isset() always exists and is not nullable.          
+  559    Variable $_SESSION in isset() always exists and is not nullable.          
+  600    Variable $_SESSION in isset() always exists and is not nullable.          
+  618    Variable $_SESSION in isset() always exists and is not nullable.          
+  628    Parameter #2 $value of function apache_setenv expects string, int given.  
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   admin/class-tm-epo-admin-global-base.php                                                                                                            
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+  8      Right side of || is always false.                                                                                                                   
+  125    Parameter #1 $object_or_class of function property_exists expects object|string, (array)|WP_Post given.                                             
+  168    Cannot call method current_action() on bool|object.                                                                                                 
+  185    Cannot call method get_pagenum() on bool|object.                                                                                                    
+  428    Variable $thissettings_array might not be defined.                                                                                                  
+  482    Cannot call method is_in_stock() on WC_Product|false|null.                                                                                          
+  487    Cannot call method variation_is_visible() on WC_Product|false|null.                                                                                 
+  524    Call to static method get_instance() on an unknown class Woocommerce_Waitlist.                                                                      
+  524    Function remove_filter invoked with 4 parameters, 2-3 required.                                                                                     
+  524    Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'wew_check_product…') given.                     
+  525    Call to static method get_instance() on an unknown class Woocommerce_Waitlist.                                                                      
+  525    Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'wew_check_product…') given.                     
+  532    Call to an undefined method WC_Product::get_variation_attributes().                                                                                 
+  853    If condition is always false.                                                                                                                       
+  895    Cannot access property $show_ui on WP_Taxonomy|false.                                                                                               
+  898    Parameter #1 $object_or_class of function property_exists expects object|string, WP_Taxonomy|false given.                                           
+  899    Cannot access property $hierarchical on WP_Taxonomy|false.                                                                                          
+  900    Cannot access property $meta_box_cb on WP_Taxonomy|false.                                                                                           
+  902    Cannot access property $meta_box_cb on WP_Taxonomy|false.                                                                                           
+  905    Access to an undefined property object::$name.                                                                                                      
+  905    Cannot access property $labels on WP_Taxonomy|false.                                                                                                
+  911    Cannot access property $meta_box_cb on WP_Taxonomy|false.                                                                                           
+  911    Parameter #3 $callback of function add_meta_box expects callable(): mixed, 'post_categories…'|'post_tags_meta_box'|(callable(): mixed)|true given.  
+  978    Undefined variable: $roles                                                                                                                          
+  993    Undefined variable: $roles                                                                                                                          
+  1031   Parameter #1 $text of function esc_attr expects string, int given.                                                                                  
+  1060   Parameter #1 $text of function esc_attr expects string, string|false given.                                                                         
+  1078   Parameter #1 $text of function esc_attr expects string, int given.                                                                                  
+  1129   Parameter #1 $text of function esc_attr expects string, int given.                                                                                  
+  1158   Parameter #1 $text of function esc_attr expects string, string|false given.                                                                         
+  1176   Parameter #1 $text of function esc_attr expects string, int given.                                                                                  
+  1281   Parameter #1 $text of function esc_attr expects string, int given.                                                                                  
+  1293   Constant EMPTY_TRASH_DAYS not found.                                                                                                                
+  1300   Parameter #1 $url of function esc_url expects string, string|void given.                                                                            
+  1342   Parameter #2 $function_to_remove of function remove_action expects callable(): mixed, 'cforms_addbuttons' given.                                    
+  1360   Function remove_action invoked with 4 parameters, 2-3 required.                                                                                     
+  1360   Parameter #2 $function_to_remove of function remove_action expects callable(): mixed, array(mixed, 'check_product_stock…') given.                   
+  1384   Call to function method_exists() with 'WC_Admin_Notices' and 'remove_all_notices' will always evaluate to false.                                    
+  1405   Access to an undefined property object::$edit_posts.                                                                                                
+  1405   Cannot access property $cap on WP_Post_Type|null.                                                                                                   
+  1430   Parameter #1 $post_status of function get_post_status_object expects string, array|string|null given.                                               
+  1491   Cannot access property $post_type on array|WP_Post|null.                                                                                            
+  1543   Cannot access property $post_type on (array)|WP_Post.                                                                                               
+  1555   Parameter #2 $query of function remove_query_arg expects bool|string, array|string given.                                                           
+  1563   Parameter #2 $query of function remove_query_arg expects bool|string, array|string given.                                                           
+  1586   Cannot access property $display_name on WP_User|false.                                                                                              
+  1635   Constant EMPTY_TRASH_DAYS not found.                                                                                                                
+  1636   Cannot access property $post_type on array|WP_Post|null.                                                                                            
+  1637   Constant MEDIA_TRASH not found.                                                                                                                     
+  1680   Cannot access property $post_status on array|WP_Post|null.                                                                                          
+  1687   Access to an undefined property object::$create_posts.                                                                                              
+  1687   Access to an undefined property object::$edit_posts.                                                                                                
+  1687   Cannot access property $cap on WP_Post_Type|null.                                                                                                   
+  1687   Cannot access property $cap on WP_Post_Type|null.                                                                                                   
+  1703   Parameter #2 $query of function remove_query_arg expects bool|string, array|string given.                                                           
+  1793   Parameter #1 $string of function wp_parse_str expects string, array|string given.                                                                   
+  1825   Parameter #1 $string of function wp_parse_str expects string, array|string given.                                                                   
+  1943   Cannot access property $id on WP_Screen|null.                                                                                                       
+  1956   Parameter #3 $deps of function wp_enqueue_style expects array, false given.                                                                         
+  1957   Parameter #3 $deps of function wp_enqueue_style expects array, false given.                                                                         
+  1958   Parameter #3 $deps of function wp_enqueue_style expects array, false given.                                                                         
+  1961   Parameter #3 $deps of function wp_enqueue_style expects array, false given.                                                                         
+  1982   Cannot access property $id on WP_Screen|null.                                                                                                       
+  1998   Parameter #3 $deps of function wp_register_script expects array, string given.                                                                      
+  2000   Parameter #3 $deps of function wp_register_script expects array, string given.                                                                      
+  2002   Parameter #3 $deps of function wp_register_script expects array, string given.                                                                      
+  2004   Parameter #3 $deps of function wp_register_script expects array, string given.                                                                      
+  2006   Parameter #3 $deps of function wp_register_script expects array, string given.                                                                      
+  2008   Parameter #3 $deps of function wp_register_script expects array, string given.                                                                      
+  2010   Parameter #3 $deps of function wp_register_script expects array, string given.                                                                      
+  2102   Parameter #3 $template_path of function wc_get_template expects string, null given.                                                                 
+  2103   Parameter #3 $template_path of function wc_get_template expects string, null given.                                                                 
+  2176   Parameter #1 $title of function sanitize_title expects string, int|string given.                                                                    
+  2285   Parameter #1 $object_or_class of function property_exists expects object|string, (array)|WP_Post given.                                             
+  2329   Variable $_SESSION in isset() always exists and is not nullable.                                                                                    
+  2488   Cannot access property $post_type on (array)|WP_Post.                                                                                               
+  2490   Access to an undefined property object::$edit_item.                                                                                                 
+  2490   Cannot access property $labels on WP_Post_Type|null.                                                                                                
+  2491   Variable $post_ID might not be defined.                                                                                                             
+  2493   Variable $post_ID might not be defined.                                                                                                             
+  2494   Cannot access property $ID on (array)|WP_Post.                                                                                                      
+  2494   Cannot access property $post_type on (array)|WP_Post.                                                                                               
+  2495   Cannot access property $ID on (array)|WP_Post.                                                                                                      
+  2495   Cannot access property $post_type on (array)|WP_Post.                                                                                               
+  2506   Access to an undefined property object::$publish_posts.                                                                                             
+  2506   Cannot access property $cap on WP_Post_Type|null.                                                                                                   
+  2519   Cannot access property $tm_meta on (array)|WP_Post.                                                                                                 
+  2542   Cannot access property $ID on array|WP_Post|null.                                                                                                   
+  2543   Cannot access property $ID on array|WP_Post|null.                                                                                                   
+  2543   Cannot access property $ID on array|WP_Post|null.                                                                                                   
+  2544   Cannot access property $ID on array|WP_Post|null.                                                                                                   
+  2544   Cannot access property $ID on array|WP_Post|null.                                                                                                   
+  2545   Cannot access property $ID on array|WP_Post|null.                                                                                                   
+  2546   Cannot access property $ID on array|WP_Post|null.                                                                                                   
+  2547   Cannot access property $ID on array|WP_Post|null.                                                                                                   
+  2553   If condition is always true.                                                                                                                        
+  2558   Cannot access property $post_title on array|WP_Post.                                                                                                
+  2559   Cannot access property $post_excerpt on array|WP_Post.                                                                                              
+  2562   Access to an undefined property object::$add_new.                                                                                                   
+  2562   Cannot access property $labels on WP_Post_Type|null.                                                                                                
+  2568   Access to an undefined property object::$publish_posts.                                                                                             
+  2568   Cannot access property $cap on WP_Post_Type|null.                                                                                                   
+  2572   Offset 0 does not exist on array().                                                                                                                 
+  2581   Access to an undefined property WP_Post::$tm_meta.                                                                                                  
+  2725   Cannot access offset 'post_title' on array|WP_Post|null.                                                                                            
+  2725   Cannot assign offset 'post_title' to array|WP_Post|null.                                                                                            
+  2732   Parameter #2 $timestamp of function date expects int, int|string given.                                                                             
+  2743   Offset 'post_type' does not exist on array('post_status' => 'draft', 'post_date' => string).                                                        
+  2746   Parameter #1 $object_id of function wp_set_object_terms expects int, int|WP_Error given.                                                            
+  2746   Parameter #2 $terms of function wp_set_object_terms expects array|int|string, array|WP_Error given.                                                 
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   admin/class-tm-epo-admin-global-list-table.php                                       
+ ------ ------------------------------------------------------------------------------------- 
+  11     Right side of || is always false.                                                    
+  107    Access to an undefined property object::$post_type.                                  
+  113    Access to an undefined property object::$post_type.                                  
+  130    Access to private property $sticky_posts_count of parent class WP_Posts_List_Table.  
+  132    Access to private property $user_posts_count of parent class WP_Posts_List_Table.    
+  149    Access to private property $is_trash of parent class WP_Posts_List_Table.            
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   admin/class-tm-epo-admin-settings.php                                                         
+ ------ ---------------------------------------------------------------------------------------------- 
+  11     Right side of || is always false.                                                             
+  48     TM_EPO_ADMIN_SETTINGS::__construct() does not call parent constructor from WC_Settings_Page.  
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------- 
+  Line   include/class-epo-autoloader.php   
+ ------ ----------------------------------- 
+  11     Right side of || is always false.  
+ ------ ----------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+  Line   include/class-extra-product-options.php                                                                                
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+  11     Right side of || is always false.                                                                                      
+  32     Return typehint of method Extra_Product_Options::instance() has invalid type Extra.                                    
+  235    Constant WP_LANG_DIR not found.                                                                                        
+  236    Constant WP_LANG_DIR not found.                                                                                        
+  246    Parameter #2 $deprecated of function load_plugin_textdomain expects string, false given.                               
+  259    PHPDoc tag @param has invalid value ($settings): Unexpected token "$settings", expected TOKEN_IDENTIFIER at offset 43  
+ ------ ----------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/class-tm-extra-product-options.php                                                                                                           
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+  11     Right side of || is always false.                                                                                                                    
+  127    Return typehint of method TM_Extra_Product_Options::instance() has invalid type Extra.                                                               
+  292    Parameter #1 $function of function call_user_func expects callable(): mixed, array(mixed, mixed) given.                                              
+  564    Variable $min_regular_price in isset() always exists and is not nullable.                                                                            
+  565    Variable $max_regular_price in isset() always exists and is not nullable.                                                                            
+  643    Function ux_builder_is_iframe not found.                                                                                                             
+  668    Access to protected property WC_Product::$post_type.                                                                                                 
+  717    Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'woocommerce_order…') given.                      
+  766    Parameter #2 $function_to_add of function add_action expects callable(): mixed, array(mixed, 'tm_epo_fields') given.                                 
+  766    Parameter #3 $priority of function add_action expects int, float|int given.                                                                          
+  767    Parameter #2 $function_to_add of function add_action expects callable(): mixed, array(mixed, 'tm_add_inline_style') given.                           
+  767    Parameter #3 $priority of function add_action expects int, float|int given.                                                                          
+  768    Parameter #2 $function_to_add of function add_action expects callable(): mixed, array(mixed, 'tm_epo_totals') given.                                 
+  768    Parameter #3 $priority of function add_action expects int, float|int given.                                                                          
+  790    Variable $thiscpf might not be defined.                                                                                                              
+  801    Call to an undefined method object::get_price().                                                                                                     
+  861    Call to an undefined method object::get_price().                                                                                                     
+  879    If condition is always true.                                                                                                                         
+  895    Parameter #1 $str of function strtolower expects string, string|false given.                                                                         
+  1258   Function remove_filter invoked with 4 parameters, 2-3 required.                                                                                      
+  1287   Parameter #1 $price of function wc_price expects float, float|int|string given.                                                                      
+  1287   Parameter #1 $price of function wc_price expects float, float|int|string given.                                                                      
+  1329   Parameter #1 $price of function wc_price expects float, float|int|string given.                                                                      
+  1329   Parameter #1 $price of function wc_price expects float, float|int|string given.                                                                      
+  1396   Function get_rocket_cdn_cnames not found.                                                                                                            
+  1397   Function get_rocket_cdn_url not found.                                                                                                               
+  1404   Function get_rocket_cdn_cnames not found.                                                                                                            
+  1405   Function get_rocket_cdn_url not found.                                                                                                               
+  1485   Parameter #1 $post of function get_post_type expects int|WP_Post|null, int|false given.                                                              
+  1541   Cannot call method get_composite_data() on WC_Product|false|null.                                                                                    
+  1547   Call to function method_exists() with 'WC_CP_Component' and 'query_component…' will always evaluate to false.                                        
+  1548   Call to static method query_component_options() on an unknown class WC_CP_Component.                                                                 
+  1550   Function WC_CP not found.                                                                                                                            
+  1554   Function WC_CP not found.                                                                                                                            
+  1759   Call to an undefined method object::get_price().                                                                                                     
+  1778   Call to an undefined method object::get_price().                                                                                                     
+  1808   Call to an undefined method object::get_price().                                                                                                     
+  1837   Call to an undefined method object::get_price().                                                                                                     
+  1974   PHPDoc tag @param has invalid value ($tmcp): Unexpected token "$tmcp", expected TOKEN_IDENTIFIER at offset 48                                        
+  2002   Variable $_POST in isset() always exists and is not nullable.                                                                                        
+  2194   Parameter #1 $string of function strlen expects string, string|null given.                                                                           
+  2209   Parameter #1 $string of function strlen expects string, string|null given.                                                                           
+  2218   Parameter #1 $string of function strlen expects string, string|null given.                                                                           
+  2697   PHPDoc tag @param has invalid value ($file): Unexpected token "$file", expected TOKEN_IDENTIFIER at offset 35                                        
+  2809   PHPDoc tag @param has invalid value ($param): Unexpected token "$param", expected TOKEN_IDENTIFIER at offset 46                                      
+  2861   PHPDoc tag @param has invalid value ($builder): Unexpected token "$builder", expected TOKEN_IDENTIFIER at offset 77                                  
+  2861   PHPDoc tag @param has invalid value ($current_builder): Unexpected token "$current_builder", expected TOKEN_IDENTIFIER at offset 104                 
+  2861   PHPDoc tag @param has invalid value ($element): Unexpected token "$element", expected TOKEN_IDENTIFIER at offset 50                                  
+  2882   Strict comparison using === between array and true will always evaluate to false.                                                                    
+  2951   Argument of an invalid type (array)|WP_Error supplied for foreach, only iterables are supported.                                                     
+  3041   Parameter #1 $post_id of function get_post_meta expects int, float given.                                                                            
+  3095   Cannot call method get_children() on WC_Product|false|null.                                                                                          
+  3116   Variable $tmglobalprices in isset() always exists and is not nullable.                                                                               
+  3179   Cannot access property $post_status on (array)|WP_Post.                                                                                              
+  3203   Method TM_Extra_Product_Options::generate_local_epos() invoked with 3 parameters, 2 required.                                                        
+  3232   PHPDoc tag @param has invalid value ($post_id): Unexpected token "$post_id", expected TOKEN_IDENTIFIER at offset 86                                  
+  3232   PHPDoc tag @param has invalid value ($tmlocalprices): Unexpected token "$tmlocalprices", expected TOKEN_IDENTIFIER at offset 60                      
+  3244   Access to offset mixed on an unknown class mix.                                                                                                      
+  3272   Parameter #3 $post of function has_term expects int|object|null, float given.                                                                        
+  3273   Function icl_object_id not found.                                                                                                                    
+  3278   Cannot access property $name on array|WP_Error|WP_Term|null.                                                                                         
+  3290   Constant WC_DELIMITER not found.                                                                                                                     
+  3291   Access to offset mixed on an unknown class mix.                                                                                                      
+  3291   Constant WC_DELIMITER not found.                                                                                                                     
+  3343   PHPDoc tag @param has invalid value ($post_id): Unexpected token "$post_id", expected TOKEN_IDENTIFIER at offset 89                                  
+  3343   PHPDoc tag @param has invalid value ($tm_original_builder_elements): Unexpected token "$tm_original_builder_elements", expected TOKEN_IDENTIFIER at  
+         offset 109                                                                                                                                           
+  3343   PHPDoc tag @param has invalid value ($tmglobalprices): Unexpected token "$tmglobalprices", expected TOKEN_IDENTIFIER at offset 62                    
+  3364   Access to an undefined property object::$ID.                                                                                                         
+  3366   Access to an undefined property object::$ID.                                                                                                         
+  3366   Access to an undefined property object::$post_type.                                                                                                  
+  3368   Access to an undefined property object::$ID.                                                                                                         
+  3368   Access to an undefined property object::$post_type.                                                                                                  
+  3435   Access to an undefined property object::$ID.                                                                                                         
+  3451   Access to an undefined property object::$post_title.                                                                                                 
+  3452   Access to an undefined property object::$post_excerpt.                                                                                               
+  3494   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3503   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3503   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, false given.                                             
+  3504   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3505   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3506   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3508   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3509   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3510   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3511   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3512   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3513   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3514   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3515   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3518   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3582   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3584   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3585   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3608   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3609   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3610   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3611   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3617   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3621   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3685   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3687   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3688   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3689   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3690   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3695   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3695   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3701   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3701   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3711   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3711   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3712   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3712   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3713   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3713   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3713   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3714   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3714   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3714   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3715   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3715   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3715   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3716   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3716   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3716   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3717   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3717   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3717   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3753   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3753   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3753   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3754   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3754   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3754   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3758   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3758   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3758   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3761   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3761   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, array given.                                             
+  3761   Parameter #6 $wpml_section_fields of method TM_Extra_Product_Options::get_builder_element() expects array, true given.                               
+  3904   Variable $element_uniqueid might not be defined.                                                                                                     
+  3905   Variable $element_uniqueid might not be defined.                                                                                                     
+  3906   Variable $is_required might not be defined.                                                                                                          
+  3912   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3912   Variable $element_uniqueid might not be defined.                                                                                                     
+  3913   Offset 'sections' does not exist on array('is_form' => 1, ?'sections' => array<int, array<string, mixed>>, ?'is_taxonomy' => 0, ?'name' => mixed,    
+         ?'description' => mixed).                                                                                                                            
+  3914   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3914   Variable $element_uniqueid might not be defined.                                                                                                     
+  3915   Offset 'sections' does not exist on array('is_form' => 1, ?'sections' => array<int, array<string, mixed>>, ?'is_taxonomy' => 0, ?'name' => mixed,    
+         ?'description' => mixed).                                                                                                                            
+  3926   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3926   Variable $element_uniqueid might not be defined.                                                                                                     
+  3978   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  3978   Variable $element_uniqueid might not be defined.                                                                                                     
+  4000   Parameter #1 $time of function date_create expects string|null, array<int, string>|string given.                                                     
+  4004   Variable $date_format might not be defined.                                                                                                          
+  4010   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4010   Variable $element_uniqueid might not be defined.                                                                                                     
+  4032   Parameter #1 $time of function date_create expects string|null, array<int, string>|string given.                                                     
+  4036   Variable $date_format might not be defined.                                                                                                          
+  4046   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4046   Variable $element_uniqueid might not be defined.                                                                                                     
+  4046   Variable $element_uniqueid might not be defined.                                                                                                     
+  4047   Offset 'sections' does not exist on array('is_form' => 1, ?'sections' => array<int, array<string, mixed>>, ?'is_taxonomy' => 0, ?'name' => mixed,    
+         ?'description' => mixed).                                                                                                                            
+  4047   Variable $element_uniqueid might not be defined.                                                                                                     
+  4052   Variable $element_uniqueid might not be defined.                                                                                                     
+  4058   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4058   Variable $element_uniqueid might not be defined.                                                                                                     
+  4064   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4064   Variable $element_uniqueid might not be defined.                                                                                                     
+  4065   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4065   Variable $element_uniqueid might not be defined.                                                                                                     
+  4067   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4067   Variable $element_uniqueid might not be defined.                                                                                                     
+  4068   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4068   Variable $element_uniqueid might not be defined.                                                                                                     
+  4069   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4069   Variable $element_uniqueid might not be defined.                                                                                                     
+  4070   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4070   Variable $element_uniqueid might not be defined.                                                                                                     
+  4071   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4071   Variable $element_uniqueid might not be defined.                                                                                                     
+  4072   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4072   Variable $element_uniqueid might not be defined.                                                                                                     
+  4074   Variable $is_enabled might not be defined.                                                                                                           
+  4075   Variable $is_required might not be defined.                                                                                                          
+  4079   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4079   Variable $element_uniqueid might not be defined.                                                                                                     
+  4080   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4080   Variable $element_uniqueid might not be defined.                                                                                                     
+  4083   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4083   Variable $element_uniqueid might not be defined.                                                                                                     
+  4084   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4084   Variable $element_uniqueid might not be defined.                                                                                                     
+  4085   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4085   Variable $element_uniqueid might not be defined.                                                                                                     
+  4086   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4086   Variable $element_uniqueid might not be defined.                                                                                                     
+  4087   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4087   Variable $element_uniqueid might not be defined.                                                                                                     
+  4088   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4088   Variable $element_uniqueid might not be defined.                                                                                                     
+  4089   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4089   Variable $element_uniqueid might not be defined.                                                                                                     
+  4090   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4090   Variable $element_uniqueid might not be defined.                                                                                                     
+  4091   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4091   Variable $element_uniqueid might not be defined.                                                                                                     
+  4094   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4094   Variable $element_uniqueid might not be defined.                                                                                                     
+  4095   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4095   Variable $element_uniqueid might not be defined.                                                                                                     
+  4096   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4096   Variable $element_uniqueid might not be defined.                                                                                                     
+  4097   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4097   Variable $element_uniqueid might not be defined.                                                                                                     
+  4098   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4098   Variable $element_uniqueid might not be defined.                                                                                                     
+  4099   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4099   Variable $element_uniqueid might not be defined.                                                                                                     
+  4100   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4100   Variable $element_uniqueid might not be defined.                                                                                                     
+  4101   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4101   Variable $element_uniqueid might not be defined.                                                                                                     
+  4102   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4102   Variable $element_uniqueid might not be defined.                                                                                                     
+  4103   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4103   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, false given.                                             
+  4103   Variable $element_uniqueid might not be defined.                                                                                                     
+  4104   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4104   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, false given.                                             
+  4104   Variable $element_uniqueid might not be defined.                                                                                                     
+  4105   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4105   Variable $element_uniqueid might not be defined.                                                                                                     
+  4106   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4106   Variable $element_uniqueid might not be defined.                                                                                                     
+  4107   Array has 3 duplicate keys with value 'text_after_price' ('text_after_price', 'text_after_price', 'text_after_price').                               
+  4107   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4107   Variable $element_uniqueid might not be defined.                                                                                                     
+  4127   Else branch is unreachable because ternary operator condition is always true.                                                                        
+  4128   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4128   Variable $element_uniqueid might not be defined.                                                                                                     
+  4129   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4129   Variable $element_uniqueid might not be defined.                                                                                                     
+  4130   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4130   Variable $element_uniqueid might not be defined.                                                                                                     
+  4131   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4131   Variable $element_uniqueid might not be defined.                                                                                                     
+  4133   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4133   Variable $element_uniqueid might not be defined.                                                                                                     
+  4134   Variable $element_uniqueid might not be defined.                                                                                                     
+  4135   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4135   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, false given.                                             
+  4135   Variable $element_uniqueid might not be defined.                                                                                                     
+  4136   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4136   Variable $element_uniqueid might not be defined.                                                                                                     
+  4138   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4138   Variable $element_uniqueid might not be defined.                                                                                                     
+  4139   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4139   Variable $element_uniqueid might not be defined.                                                                                                     
+  4140   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4140   Variable $element_uniqueid might not be defined.                                                                                                     
+  4141   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4141   Variable $element_uniqueid might not be defined.                                                                                                     
+  4144   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4144   Variable $element_uniqueid might not be defined.                                                                                                     
+  4146   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4146   Variable $element_uniqueid might not be defined.                                                                                                     
+  4147   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4147   Variable $element_uniqueid might not be defined.                                                                                                     
+  4148   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4148   Variable $element_uniqueid might not be defined.                                                                                                     
+  4149   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4149   Variable $element_uniqueid might not be defined.                                                                                                     
+  4150   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4150   Variable $element_uniqueid might not be defined.                                                                                                     
+  4151   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4151   Variable $element_uniqueid might not be defined.                                                                                                     
+  4152   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4152   Variable $element_uniqueid might not be defined.                                                                                                     
+  4153   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4153   Variable $element_uniqueid might not be defined.                                                                                                     
+  4154   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4154   Variable $element_uniqueid might not be defined.                                                                                                     
+  4155   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4155   Variable $element_uniqueid might not be defined.                                                                                                     
+  4157   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4157   Variable $element_uniqueid might not be defined.                                                                                                     
+  4158   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4158   Variable $element_uniqueid might not be defined.                                                                                                     
+  4159   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4159   Variable $element_uniqueid might not be defined.                                                                                                     
+  4161   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4161   Variable $element_uniqueid might not be defined.                                                                                                     
+  4162   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4162   Variable $element_uniqueid might not be defined.                                                                                                     
+  4163   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4163   Variable $element_uniqueid might not be defined.                                                                                                     
+  4165   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4165   Variable $element_uniqueid might not be defined.                                                                                                     
+  4166   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4166   Variable $element_uniqueid might not be defined.                                                                                                     
+  4169   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4169   Variable $element_uniqueid might not be defined.                                                                                                     
+  4170   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4170   Variable $element_uniqueid might not be defined.                                                                                                     
+  4171   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4171   Variable $element_uniqueid might not be defined.                                                                                                     
+  4173   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4173   Variable $element_uniqueid might not be defined.                                                                                                     
+  4174   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4174   Variable $element_uniqueid might not be defined.                                                                                                     
+  4175   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4175   Variable $element_uniqueid might not be defined.                                                                                                     
+  4176   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4176   Variable $element_uniqueid might not be defined.                                                                                                     
+  4177   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4177   Variable $element_uniqueid might not be defined.                                                                                                     
+  4178   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4178   Variable $element_uniqueid might not be defined.                                                                                                     
+  4179   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4179   Variable $element_uniqueid might not be defined.                                                                                                     
+  4181   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4181   Variable $element_uniqueid might not be defined.                                                                                                     
+  4182   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4182   Variable $element_uniqueid might not be defined.                                                                                                     
+  4183   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4183   Variable $element_uniqueid might not be defined.                                                                                                     
+  4184   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4184   Variable $element_uniqueid might not be defined.                                                                                                     
+  4185   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4185   Variable $element_uniqueid might not be defined.                                                                                                     
+  4187   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4187   Variable $element_uniqueid might not be defined.                                                                                                     
+  4192   Variable $element_uniqueid might not be defined.                                                                                                     
+  4193   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4193   Variable $element_uniqueid might not be defined.                                                                                                     
+  4198   Variable $is_enabled might not be defined.                                                                                                           
+  4203   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4203   Variable $element_uniqueid might not be defined.                                                                                                     
+  4204   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4204   Variable $element_uniqueid might not be defined.                                                                                                     
+  4205   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4205   Variable $element_uniqueid might not be defined.                                                                                                     
+  4206   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4206   Variable $element_uniqueid might not be defined.                                                                                                     
+  4207   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4207   Variable $element_uniqueid might not be defined.                                                                                                     
+  4208   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4208   Variable $element_uniqueid might not be defined.                                                                                                     
+  4209   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4209   Variable $element_uniqueid might not be defined.                                                                                                     
+  4229   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4229   Variable $element_uniqueid might not be defined.                                                                                                     
+  4230   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4230   Variable $element_uniqueid might not be defined.                                                                                                     
+  4231   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4231   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, false given.                                             
+  4231   Variable $element_uniqueid might not be defined.                                                                                                     
+  4232   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4232   Variable $element_uniqueid might not be defined.                                                                                                     
+  4250   Variable $element_uniqueid might not be defined.                                                                                                     
+  4251   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4251   Variable $element_uniqueid might not be defined.                                                                                                     
+  4256   Variable $is_enabled might not be defined.                                                                                                           
+  4267   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4267   Variable $element_uniqueid might not be defined.                                                                                                     
+  4286   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4286   Variable $element_uniqueid might not be defined.                                                                                                     
+  4287   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4287   Variable $element_uniqueid might not be defined.                                                                                                     
+  4288   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4288   Parameter #5 $alt of method TM_Extra_Product_Options::get_builder_element() expects string, false given.                                             
+  4288   Variable $element_uniqueid might not be defined.                                                                                                     
+  4289   Parameter #4 $index of method TM_Extra_Product_Options::get_builder_element() expects bool, int given.                                               
+  4289   Variable $element_uniqueid might not be defined.                                                                                                     
+  4354   Offset 'sections' does not exist on array('is_form' => 1, ?'sections' => array<int, array<string, mixed>>, ?'is_taxonomy' => 0, ?'name' => mixed,    
+         ?'description' => mixed).                                                                                                                            
+  4362   Access to an undefined property object::$what.                                                                                                       
+  4363   Access to an undefined property object::$rules.                                                                                                      
+  4376   Variable $tmcp_id might not be defined.                                                                                                              
+  4377   Variable $tmcp_id might not be defined.                                                                                                              
+  4378   Variable $tmcp_id might not be defined.                                                                                                              
+  4379   Variable $tmcp_id might not be defined.                                                                                                              
+  4380   Variable $tmcp_id might not be defined.                                                                                                              
+  4381   Variable $tmcp_id might not be defined.                                                                                                              
+  4382   Variable $tmcp_id might not be defined.                                                                                                              
+  4383   Variable $tmcp_id might not be defined.                                                                                                              
+  4384   Variable $tmcp_id might not be defined.                                                                                                              
+  4385   Variable $tmcp_id might not be defined.                                                                                                              
+  4386   Variable $tmcp_id might not be defined.                                                                                                              
+  4387   Variable $tmcp_id might not be defined.                                                                                                              
+  4388   Variable $tmcp_id might not be defined.                                                                                                              
+  4389   Variable $tmcp_id might not be defined.                                                                                                              
+  4403   Variable $tmcp_id might not be defined.                                                                                                              
+  4404   Variable $tmcp_id might not be defined.                                                                                                              
+  4405   Variable $tmcp_id might not be defined.                                                                                                              
+  4406   Variable $tmcp_id might not be defined.                                                                                                              
+  4407   Variable $tmcp_id might not be defined.                                                                                                              
+  4408   Variable $tmcp_id might not be defined.                                                                                                              
+  4409   Variable $tmcp_id might not be defined.                                                                                                              
+  4410   Variable $tmcp_id might not be defined.                                                                                                              
+  4534   Call to function is_array() with mix will always evaluate to false.                                                                                  
+  4534   Result of && is always false.                                                                                                                        
+  4665   Variable $is_cart_fee might not be defined.                                                                                                          
+ ------ ----------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+  Line   include/classes/class-tm-epo-api-base.php                                                                               
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+  9      Right side of || is always false.                                                                                       
+  75     Parameter #1 $glue of function join expects string, array given.                                                        
+  75     Parameter #2 $pieces of function join expects array, string given.                                                      
+  107    Call to function is_array() with true will always evaluate to false.                                                    
+  107    Result of && is always false.                                                                                           
+  107    Result of && is always false.                                                                                           
+  107    Result of || is always true.                                                                                            
+  121    PHPDoc tag @param has invalid value ($order_id): Unexpected token "$order_id", expected TOKEN_IDENTIFIER at offset 105  
+  134    PHPDoc tag @param has invalid value ($order_id): Unexpected token "$order_id", expected TOKEN_IDENTIFIER at offset 108  
+  140    Cannot call method get_currency() on WC_Order|WC_Order_Refund|true.                                                     
+  140    Cannot call method get_order_currency() on WC_Order|WC_Order_Refund|true.                                               
+  143    Cannot call method get_items() on WC_Order|WC_Order_Refund|true.                                                        
+  149    Cannot call method get_item_meta() on WC_Order|WC_Order_Refund|true.                                                    
+  150    Cannot call method get_taxes() on WC_Order|WC_Order_Refund|true.                                                        
+  241    Parameter #1 $version1 of function version_compare expects string, string|false given.                                  
+  241    Parameter #3 ...$args of function array_map expects array, int given.                                                   
+  241    Parameter #4 ...$args of function array_map expects array, string given.                                                
+  243    Parameter #1 $version1 of function version_compare expects string, string|false given.                                  
+  247    Parameter #1 $text of function esc_attr expects string, array<string>|string given.                                     
+  266    Argument of an invalid type (array<int, string>|false) supplied for foreach, only iterables are supported.              
+  279    Parameter #2 $str of function explode expects string, string|null given.                                                
+ ------ ------------------------------------------------------------------------------------------------------------------------ 
+
+ ------ ---------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-builder-base.php                                                       
+ ------ ---------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                   
+  1650   Binary operation "+" between string and 10 results in an error.                                     
+  2229   Parameter #1 $text of function esc_attr expects string, int given.                                  
+  2248   Parameter #1 $text of function esc_attr expects string, int given.                                  
+  3040   Parameter #1 $text of function esc_attr expects string, int given.                                  
+  3040   Parameter #1 $text of function esc_html expects string, int given.                                  
+  3061   Parameter #1 $text of function esc_attr expects string, int given.                                  
+  3297   Variable $section_use_wpml might not be defined.                                                    
+  3372   Variable $section_use_wpml might not be defined.                                                    
+  3800   Possibly invalid array key type (array|string).                                                     
+  3801   Possibly invalid array key type (array|string).                                                     
+  3805   Possibly invalid array key type (array|string).                                                     
+  4053   Call to an undefined method WC_Product::get_variation_attributes().                                 
+  4115   Argument of an invalid type array|int|WP_Error supplied for foreach, only iterables are supported.  
+  4538   Parameter #1 $text of function esc_attr expects string, float|int given.                            
+  4687   Parameter #1 $text of function esc_attr expects string, int given.                                  
+  4690   Parameter #3 $echo of function checked expects bool, int given.                                     
+  4698   Parameter #1 $text of function esc_attr expects string, int given.                                  
+  4701   Parameter #3 $echo of function checked expects bool, int given.                                     
+ ------ ---------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-cart.php                                                                                                         
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                                                             
+  113    Parameter #2 $function_to_add of function add_action expects callable(): mixed, array(mixed, 'tm_add_inline_style') given.                    
+  227    Parameter #1 $str of function trim expects string, int|string given.                                                                          
+  238    Parameter #1 $str of function trim expects string, int|string given.                                                                          
+  257    PHPDoc tag @param has invalid value ($cart_item_meta): Unexpected token "$cart_item_meta", expected TOKEN_IDENTIFIER at offset 20             
+  257    PHPDoc tag @param has invalid value ($product_id): Unexpected token "$product_id", expected TOKEN_IDENTIFIER at offset 52                     
+  319    Offset string does not exist on array<int, mixed>.                                                                                            
+  338    Strict comparison using !== between false and false will always evaluate to false.                                                            
+  353    Strict comparison using !== between false and false will always evaluate to false.                                                            
+  390    Offset string does not exist on array<int, mixed>.                                                                                            
+  406    Strict comparison using !== between false and false will always evaluate to false.                                                            
+  422    Strict comparison using !== between false and false will always evaluate to false.                                                            
+  840    Parameter #1 $text of function esc_attr expects string, string|null given.                                                                    
+  842    Parameter #1 $text of function esc_attr expects string, string|null given.                                                                    
+  842    Parameter #1 $text of function esc_attr expects string, string|void given.                                                                    
+  891    Argument of an invalid type (array<int, string>|false) supplied for foreach, only iterables are supported.                                    
+  1087   Variable $section might not be defined.                                                                                                       
+  1129   PHPDoc tag @param has invalid value ($cart_item_meta): Unexpected token "$cart_item_meta", expected TOKEN_IDENTIFIER at offset 49             
+  1129   PHPDoc tag @param has invalid value ($product_id): Unexpected token "$product_id", expected TOKEN_IDENTIFIER at offset 76                     
+  1130   Parameter #3 $post_data of method TM_EPO_Cart::add_cart_item_data_helper() expects null, array<string, mixed> given.                          
+  1142   PHPDoc tag @param has invalid value ($cart_item_meta): Unexpected token "$cart_item_meta", expected TOKEN_IDENTIFIER at offset 50             
+  1142   PHPDoc tag @param has invalid value ($product_id): Unexpected token "$product_id", expected TOKEN_IDENTIFIER at offset 82                     
+  1156   PHPDoc tag @param has invalid value ($cart_item_meta): Unexpected token "$cart_item_meta", expected TOKEN_IDENTIFIER at offset 63             
+  1156   PHPDoc tag @param has invalid value ($product_id): Unexpected token "$product_id", expected TOKEN_IDENTIFIER at offset 95                     
+  1158   Result of && is always true.                                                                                                                  
+  1158   Variable $_POST in isset() always exists and is not nullable.                                                                                 
+  1349   PHPDoc tag @param has invalid value ($cart_item_meta): Unexpected token "$cart_item_meta", expected TOKEN_IDENTIFIER at offset 116            
+  1349   PHPDoc tag @param has invalid value ($cpf_product_price): Unexpected token "$cpf_product_price", expected TOKEN_IDENTIFIER at offset 227      
+  1349   PHPDoc tag @param has invalid value ($field_loop): Unexpected token "$field_loop", expected TOKEN_IDENTIFIER at offset 282                    
+  1349   PHPDoc tag @param has invalid value ($form_prefix): Unexpected token "$form_prefix", expected TOKEN_IDENTIFIER at offset 322                  
+  1349   PHPDoc tag @param has invalid value ($local_price_array): Unexpected token "$local_price_array", expected TOKEN_IDENTIFIER at offset 86       
+  1349   PHPDoc tag @param has invalid value ($loop): Unexpected token "$loop", expected TOKEN_IDENTIFIER at offset 305                                
+  1349   PHPDoc tag @param has invalid value ($per_product_pricing): Unexpected token "$per_product_pricing", expected TOKEN_IDENTIFIER at offset 195  
+  1349   PHPDoc tag @param has invalid value ($post_data): Unexpected token "$post_data", expected TOKEN_IDENTIFIER at offset 346                      
+  1349   PHPDoc tag @param has invalid value ($product_id): Unexpected token "$product_id", expected TOKEN_IDENTIFIER at offset 172                    
+  1349   PHPDoc tag @param has invalid value ($tmcp_post_fields): Unexpected token "$tmcp_post_fields", expected TOKEN_IDENTIFIER at offset 143        
+  1349   PHPDoc tag @param has invalid value ($variation_id): Unexpected token "$variation_id", expected TOKEN_IDENTIFIER at offset 257                
+  1378   Parameter #2 $product of function wc_attribute_label expects WC_Product, WC_Product|false|null given.                                         
+  1381   Parameter #2 $product of function wc_attribute_label expects WC_Product, WC_Product|false|null given.                                         
+  1422   PHPDoc tag @param has invalid value ($cart_item_meta): Unexpected token "$cart_item_meta", expected TOKEN_IDENTIFIER at offset 112            
+  1422   PHPDoc tag @param has invalid value ($cpf_product_price): Unexpected token "$cpf_product_price", expected TOKEN_IDENTIFIER at offset 223      
+  1422   PHPDoc tag @param has invalid value ($field_loop): Unexpected token "$field_loop", expected TOKEN_IDENTIFIER at offset 278                    
+  1422   PHPDoc tag @param has invalid value ($form_prefix): Unexpected token "$form_prefix", expected TOKEN_IDENTIFIER at offset 318                  
+  1422   PHPDoc tag @param has invalid value ($global_prices): Unexpected token "$global_prices", expected TOKEN_IDENTIFIER at offset 68               
+  1422   PHPDoc tag @param has invalid value ($loop): Unexpected token "$loop", expected TOKEN_IDENTIFIER at offset 301                                
+  1422   PHPDoc tag @param has invalid value ($per_product_pricing): Unexpected token "$per_product_pricing", expected TOKEN_IDENTIFIER at offset 191  
+  1422   PHPDoc tag @param has invalid value ($post_data): Unexpected token "$post_data", expected TOKEN_IDENTIFIER at offset 342                      
+  1422   PHPDoc tag @param has invalid value ($product_id): Unexpected token "$product_id", expected TOKEN_IDENTIFIER at offset 168                    
+  1422   PHPDoc tag @param has invalid value ($tmcp_post_fields): Unexpected token "$tmcp_post_fields", expected TOKEN_IDENTIFIER at offset 139        
+  1422   PHPDoc tag @param has invalid value ($variation_id): Unexpected token "$variation_id", expected TOKEN_IDENTIFIER at offset 253                
+  1422   PHPDoc tag @param has invalid value ($where): Unexpected token "$where", expected TOKEN_IDENTIFIER at offset 94                               
+  1446   Call to an undefined method object::add_cart_item_data_cart_fees().                                                                           
+  1470   Call to an undefined method object::add_cart_item_data().                                                                                     
+  1604   Parameter #1 $message of function wc_add_notice expects string, string|false given.                                                           
+  1611   Parameter #1 $message of function wc_add_notice expects string, string|false given.                                                           
+  1616   Parameter #2 $function_to_add of function add_filter expects callable(): mixed, array(mixed, 'upload_mimes_trick') given.                     
+  1637   Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'upload_mimes_trick') given.               
+  1664   PHPDoc tag @param has invalid value ($form_prefix): Unexpected token "$form_prefix", expected TOKEN_IDENTIFIER at offset 186                  
+  1664   PHPDoc tag @param has invalid value ($global_prices): Unexpected token "$global_prices", expected TOKEN_IDENTIFIER at offset 77               
+  1664   PHPDoc tag @param has invalid value ($global_sections): Unexpected token "$global_sections", expected TOKEN_IDENTIFIER at offset 49           
+  1664   PHPDoc tag @param has invalid value ($loop): Unexpected token "$loop", expected TOKEN_IDENTIFIER at offset 169                                
+  1664   PHPDoc tag @param has invalid value ($passed): Unexpected token "$passed", expected TOKEN_IDENTIFIER at offset 150                            
+  1664   PHPDoc tag @param has invalid value ($tmcp_post_fields): Unexpected token "$tmcp_post_fields", expected TOKEN_IDENTIFIER at offset 121        
+  1664   PHPDoc tag @param has invalid value ($where): Unexpected token "$where", expected TOKEN_IDENTIFIER at offset 103                              
+  1679   Call to an undefined method object::is_visible().                                                                                             
+  1732   PHPDoc tag @param has invalid value ($product_id): Unexpected token "$product_id", expected TOKEN_IDENTIFIER at offset 50                     
+  1732   PHPDoc tag @param has invalid value ($qty): Unexpected token "$qty", expected TOKEN_IDENTIFIER at offset 80                                   
+  2051   Call to an undefined method object::get_fees().                                                                                               
+  2603   Parameter #3 $number of function _n expects int, float|int given.                                                                             
+  2630   Function remove_filter invoked with 4 parameters, 2-3 required.                                                                               
+  2696   PHPDoc tag @param has invalid value ($id): Unexpected token "$id", expected TOKEN_IDENTIFIER at offset 66                                     
+  2696   PHPDoc tag @param has invalid value ($key): Unexpected token "$key", expected TOKEN_IDENTIFIER at offset 81                                   
+  2696   PHPDoc tag @param has invalid value ($value): Unexpected token "$value", expected TOKEN_IDENTIFIER at offset 48                               
+ ------ ---------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   include/classes/class-tm-epo-check-base.php  
+ ------ --------------------------------------------- 
+  12     Right side of || is always false.            
+  110    Constant TM_ECO_PLUGIN_PATH not found.       
+  111    Constant TM_ECO_PLUGIN_PATH not found.       
+ ------ --------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-display.php                                                                             
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                                    
+  108    PHPDoc tag @param has invalid value ($classes): Unexpected token "$classes", expected TOKEN_IDENTIFIER at offset 15  
+  121    Method TM_EPO_Display::get_tax_rate() should return int but returns float|int.                                       
+  130    PHPDoc tag @param has invalid value ($element): Unexpected token "$element", expected TOKEN_IDENTIFIER at offset 15  
+  228    Parameter #2 $src of function wp_register_style expects string, false given.                                         
+  304    Parameter #2 $src of function wp_register_style expects string, false given.                                         
+  919    Variable $is_cart_fee might not be defined.                                                                          
+  975    Access to an undefined property object::$cart_fee_class.                                                             
+  1130   Access to an undefined property object::$cart_fee_class.                                                             
+  1146   Access to an undefined property object::$tm_epo_css_selected_border.                                                 
+  1172   Access to an undefined property object::$tm_epo_css_selected_border.                                                 
+  1194   Access to an undefined property object::$tm_epo_css_selected_border.                                                 
+  1350   PHPDoc tag @param references unknown parameter: $is_from_shortcode                                                   
+  1350   PHPDoc tag @param references unknown parameter: $product_id                                                          
+  1367   Call to function is_array() with mix will always evaluate to false.                                                  
+  1367   Result of && is always false.                                                                                        
+  1372   Access to offset mixed on an unknown class mix.                                                                      
+  1412   Parameter #2 $deprecated of function get_terms expects array, string given.                                          
+  1421   Parameter #2 $deprecated of function get_terms expects array, string given.                                          
+  1463   Parameter #3 $post of function has_term expects int|object|null, float given.                                        
+  1466   Function icl_object_id not found.                                                                                    
+  1531   Parameter #3 $post of function has_term expects int|object|null, float given.                                        
+  1535   Function icl_object_id not found.                                                                                    
+  1595   Variable $name might not be defined.                                                                                 
+  1659   Constant WC_DELIMITER not found.                                                                                     
+  1660   Constant WC_DELIMITER not found.                                                                                     
+  1705   Parameter #1 $title of function sanitize_title expects string, array<string, mixed> given.                           
+  1786   Variable $name might not be defined.                                                                                 
+  2006   Function WC_CP not found.                                                                                            
+  2021   Call to static method instance() on an unknown class WC_Dynamic_Pricing.                                             
+  2052   Cannot call method get_price() on WC_Product|false|null.                                                             
+  2150   Variable $taxes_of_one might not be defined.                                                                         
+ ------ --------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-helper-base.php                                                                 
+ ------ ------------------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                            
+  121    Parameter #3 $subject of function str_replace expects array|string, array|string|null given.                 
+  272    Parameter #1 $version1 of function version_compare expects string, string|false given.                       
+  707    Variable $variations_all might not be defined.                                                               
+  721    Variable $add_logic_prices might not be defined.                                                             
+  723    Variable $add_logic_prices_max might not be defined.                                                         
+  729    Variable $add_logic_prices might not be defined.                                                             
+  731    Variable $add_logic_prices might not be defined.                                                             
+  844    Parameter #1 $str of function strrev expects string, int|string given.                                       
+  846    Parameter #1 $haystack of function strpos expects string, int|string given.                                  
+  938    Cannot assign offset 'path' to array<string, int|string>|false.                                              
+  961    Parameter #1 $subject of static method WP_MatchesMapRegex::apply() expects string, array|string|null given.  
+  1140   Access to an undefined property object::$read_private_posts.                                                 
+  1188   Access to an undefined property object::$read_private_posts.                                                 
+  1188   Cannot access property $cap on WP_Post_Type|null.                                                            
+  1365   Parameter #4 $context of function request_filesystem_credentials expects string, false given.                
+  1368   Parameter #1 $args of function WP_Filesystem expects array|false, bool given.                                
+  1470   Parameter #1 $text of function esc_attr expects string, string|false given.                                  
+  1482   Parameter #1 $text of function esc_attr expects string, string|false given.                                  
+  1568   Parameter #1 $image of function imagecreatefromstring expects string, string|false given.                    
+  1577   Parameter #1 $im of function imagecolorallocatealpha expects resource, resource|false given.                 
+  1577   Parameter #1 $im of function imagecolortransparent expects resource, resource|false given.                   
+  1578   Parameter #1 $im of function imagealphablending expects resource, resource|false given.                      
+  1580   Parameter #1 $im of function imagesavealpha expects resource, resource|false given.                          
+  1582   Parameter #1 $dst_im of function imagecopy expects resource, resource|false given.                           
+  1585   Parameter #1 $im of function imagepng expects resource, resource|false given.                                
+  1586   Parameter #1 $im of function imagedestroy expects resource, resource|false given.                            
+ ------ ------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------- 
+  Line   include/classes/class-tm-epo-html-base.php  
+ ------ -------------------------------------------- 
+  9      Right side of || is always false.           
+ ------ -------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-order.php                                                                                            
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                                                 
+  110    Function remove_filter invoked with 4 parameters, 2-3 required.                                                                   
+  110    Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'woocommerce_add_to…') given.  
+  255    Parameter #3 $meta_value of function wc_add_order_item_meta expects string, array<int, mixed> given.                              
+  256    Parameter #3 $meta_value of function wc_add_order_item_meta expects string, array<int, int> given.                                
+  260    Parameter #3 $meta_value of function wc_add_order_item_meta expects string, array<int, mixed> given.                              
+  305    Function remove_filter invoked with 4 parameters, 2-3 required.                                                                   
+  409    Argument of an invalid type (array<int, string>|false) supplied for foreach, only iterables are supported.                        
+  430    Parameter #1 $callback of function array_map expects (callable)|null, array<int, mixed> given.                                    
+  466    Parameter #2 $str of function explode expects string, string|null given.                                                          
+  521    Parameter #1 $product of function tc_get_product_type expects null, WC_Product|false|null given.                                  
+  523    Call to an undefined method object::get_meta_data().                                                                              
+  534    Call to an undefined method object::get_meta_data().                                                                              
+  536    Call to an undefined method object::delete_meta_data().                                                                           
+  538    Call to an undefined method object::set_meta_data().                                                                              
+  745    PHPDoc tag @param has invalid value ($attachments): Unexpected token "$attachments", expected TOKEN_IDENTIFIER at offset 53       
+  745    PHPDoc tag @param has invalid value ($emailmethodid): Unexpected token "$emailmethodid", expected TOKEN_IDENTIFIER at offset 77   
+  745    PHPDoc tag @param has invalid value ($order): Unexpected token "$order", expected TOKEN_IDENTIFIER at offset 103                  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------- 
+  Line   include/classes/class-tm-epo-post-types.php  
+ ------ --------------------------------------------- 
+  9      Right side of || is always false.            
+ ------ --------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-scripts.php                                                          
+ ------ -------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                 
+  62     Parameter #2 $src of function wp_register_style expects string, false given.                      
+  67     Parameter #2 $src of function wp_register_script expects string, false given.                     
+  138    Parameter #1 $product of function tc_get_product_type expects null, WC_Product|false|null given.  
+  299    Parameter #1 $product of function tc_get_product_type expects null, WC_Product|false|null given.  
+  310    Parameter #3 $deps of function wp_register_script expects array, string given.                    
+  313    Parameter #3 $deps of function wp_register_script expects array, string given.                    
+  316    Parameter #3 $deps of function wp_register_script expects array, string given.                    
+  321    Parameter #3 $deps of function wp_register_script expects array, string given.                    
+  411    Parameter #1 $text of function esc_attr expects string, int given.                                
+  500    Parameter #1 $text of function esc_html expects string, string|false given.                       
+  501    Parameter #1 $text of function esc_html expects string, string|false given.                       
+ ------ -------------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-settings-base.php                              
+ ------ ---------------------------------------------------------------------------- 
+  8      Right side of || is always false.                                           
+  1510   Array has 2 duplicate keys with value 'desc_tip' ('desc_tip', 'desc_tip').  
+ ------ ---------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-shortcodes.php                                                        
+ ------ --------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                  
+  31     Parameter #1 $var_array of function extract is passed by reference, so it expects variables only.  
+  36     Undefined variable: $action                                                                        
+  51     Parameter #1 $var_array of function extract is passed by reference, so it expects variables only.  
+  58     Undefined variable: $id                                                                            
+  59     Undefined variable: $prefix                                                                        
+  76     Parameter #1 $var_array of function extract is passed by reference, so it expects variables only.  
+  85     Undefined variable: $prefix                                                                        
+  102    Parameter #1 $var_array of function extract is passed by reference, so it expects variables only.  
+  109    Undefined variable: $id                                                                            
+  110    Undefined variable: $prefix                                                                        
+ ------ --------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------- 
+  Line   include/classes/class-tm-epo-update-licenser.php  
+ ------ -------------------------------------------------- 
+  9      Right side of || is always false.                 
+  146    Access to an undefined property object::$code.    
+  146    Access to an undefined property object::$key.     
+  146    Access to an undefined property object::$result.  
+  166    Access to an undefined property object::$result.  
+  169    Access to an undefined property object::$code.    
+  171    Access to an undefined property object::$code.    
+  228    Access to an undefined property object::$code.    
+ ------ -------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-update-updater.php                                                     
+ ------ ---------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                   
+  80     Access to an undefined property object::$strings.                                                   
+  81     Call to an undefined method (object)|(object)::feedback().                                          
+  83     Call to an undefined method object::fs_connect().                                                   
+  83     Constant WP_CONTENT_DIR not found.                                                                  
+  165    Parameter #1 $response of function wp_remote_retrieve_response_code expects array, WP_Error given.  
+  167    Cannot access offset 'body' on array|WP_Error.                                                      
+  271    Parameter #1 $response of function wp_remote_retrieve_response_code expects array, WP_Error given.  
+  272    Cannot access offset 'body' on array|WP_Error.                                                      
+  272    Cannot access offset 'body' on array|WP_Error.                                                      
+ ------ ---------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------ 
+  Line   include/classes/class-tm-epo-widgets.php  
+ ------ ------------------------------------------ 
+  9      Right side of || is always false.         
+ ------ ------------------------------------------ 
+
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/classes/class-tm-epo-wpml-base.php                                                                                       
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                                                
+  68     Return typehint of method TM_EPO_WPML_base::sitepress_instance() has invalid type SitePress.                                     
+  90     Method TM_EPO_WPML_base::get_flag() should return string but returns string|false.                                               
+  106    Constant ICL_PLUGIN_URL not found.                                                                                               
+  111    Constant ICL_PLUGIN_URL not found.                                                                                               
+  132    Parameter #1 $object_or_class of function property_exists expects object|string, (array)|WP_Post given.                          
+  169    Function icl_object_id not found.                                                                                                
+  206    Parameter #1 $object_or_class of function property_exists expects object|string, (array)|WP_Post given.                          
+  239    Function icl_object_id not found.                                                                                                
+  295    Parameter #2 $function_to_remove of function remove_action expects callable(): mixed, array(mixed, 'parse_query') given.         
+  308    Parameter #2 $function_to_add of function add_action expects callable(): mixed, array(mixed, 'parse_query') given.               
+  321    Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'get_terms_args…') given.     
+  322    Function remove_filter invoked with 4 parameters, 2-3 required.                                                                  
+  322    Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'get_term_adjust_id') given.  
+  323    Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'terms_clauses') given.       
+  336    Parameter #2 $function_to_add of function add_filter expects callable(): mixed, array(mixed, 'terms_clauses') given.             
+  337    Parameter #2 $function_to_add of function add_filter expects callable(): mixed, array(mixed, 'get_term_adjust_id') given.        
+  338    Parameter #2 $function_to_add of function add_filter expects callable(): mixed, array(mixed, 'get_terms_args…') given.           
+  476    Variable $o might not be defined.                                                                                                
+  518    Argument of an invalid type array|int|WP_Error supplied for foreach, only iterables are supported.                               
+  535    Argument of an invalid type array|int|WP_Error supplied for foreach, only iterables are supported.                               
+  546    Instantiated class WPML_Taxonomy_Translation_Screen_Data not found.                                                              
+  547    Call to method terms() on an unknown class WPML_Taxonomy_Translation_Screen_Data.                                                
+  628    Parameter #2 $function_to_remove of function remove_action expects callable(): mixed, array(mixed, 'language_filter') given.     
+  629    Parameter #2 $function_to_remove of function remove_action expects callable(): mixed, array(mixed, 'language_filter') given.     
+  786    Function ob_star not found.                                                                                                      
+ ------ --------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------- 
+  Line   include/compatibility/class-tm-epo-compatibility-base.php  
+ ------ ----------------------------------------------------------- 
+  12     Right side of || is always false.                          
+ ------ ----------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-bap.php  
+ ------ ------------------------------------------------------- 
+  13     Right side of || is always false.                      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-bookings.php    
+ ------ -------------------------------------------------------------- 
+  12     Right side of || is always false.                             
+  118    Call to an undefined method WC_Product_Booking::get_price().  
+  120    Call to an undefined method WC_Product_Booking::set_price().  
+  199    Call to an undefined method object::is_type().                
+  223    Call to an undefined method object::is_type().                
+ ------ -------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-composite.php    
+ ------ --------------------------------------------------------------- 
+  12     Right side of || is always false.                              
+  82     Variable $_POST in isset() always exists and is not nullable.  
+ ------ --------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-currency.php                                                                                              
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------- 
+  13     Right side of || is always false.                                                                                                                       
+  100    Constant WCML_MULTI_CURRENCIES_INDEPENDENT not found.                                                                                                   
+  247    Access to static property $version on an unknown class WC_Aelia_CurrencySwitcher.                                                                       
+  247    Call to function property_exists() with 'WC_Aelia…' and 'version' will always evaluate to false.                                                        
+  247    Call to function property_exists() with 'WC_Aelia…' and 'version' will always evaluate to false.                                                        
+  299    Constant WOOCOMMERCE_VERSION not found.                                                                                                                 
+  596    Undefined variable: $currency                                                                                                                           
+  673    PHPDoc tag @param has invalid value (double price The source price.): Unexpected token "price", expected TOKEN_VARIABLE at offset 229                   
+  673    PHPDoc tag @param has invalid value (string from_currency The source currency. If empty, WooCommerce base): Unexpected token "from_currency", expected  
+         TOKEN_VARIABLE at offset 385                                                                                                                            
+  673    PHPDoc tag @param has invalid value (string to_currency The target currency. If empty, the active currency): Unexpected token "to_currency", expected   
+         TOKEN_VARIABLE at offset 271                                                                                                                            
+  728    Function WCPBC not found.                                                                                                                               
+  730    Function WCPBC not found.                                                                                                                               
+ ------ -------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-dpd.php                                                                          
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+  12     Right side of || is always false.                                                                                              
+  133    Constant TURE not found.                                                                                                       
+  159    Call to static method get_applicable_rules_for_product() on an unknown class RP_WCDPD_Product_Pricing.                         
+  200    Call to static method get() on an unknown class RP_WCDPD_Settings.                                                             
+  200    Call to static method wc_product_uses_decimal_quantities() on an unknown class RightPress_Helper.                              
+  203    Call to static method get_wc_product_quantity_step() on an unknown class RightPress_Helper.                                    
+  239    Parameter #2 $to of static method TM_EPO_CP_DPD::get_missing_range() expects int, null given.                                  
+  252    Call to static method get() on an unknown class RP_WCDPD_Settings.                                                             
+  255    Function WC_CP not found.                                                                                                      
+  256    Call to static method get_instance() on an unknown class RP_WCDPD_Promotion_Display_Price_Override.                            
+  258    Call to static method get_instance() on an unknown class RP_WCDPD_Promotion_Display_Price_Override.                            
+  260    Call to static method get() on an unknown class RP_WCDPD_Settings.                                                             
+  261    Call to static method get_instance() on an unknown class RP_WCDPD_Promotion_Display_Price_Override.                            
+  263    Call to static method get_instance() on an unknown class RP_WCDPD_Promotion_Display_Price_Override.                            
+  267    Constant RP_WCDPD_VERSION not found.                                                                                           
+  270    Function WC_CP not found.                                                                                                      
+  271    Call to static method get_instance() on an unknown class RP_WCDPD_Product_Price_Override.                                      
+  273    Call to static method get_instance() on an unknown class RP_WCDPD_Product_Price_Override.                                      
+  275    Call to static method get() on an unknown class RP_WCDPD_Settings.                                                             
+  276    Call to static method get_instance() on an unknown class RP_WCDPD_Product_Price_Override.                                      
+  278    Call to static method get_instance() on an unknown class RP_WCDPD_Product_Price_Override.                                      
+  300    Call to static method get() on an unknown class RP_WCDPD_Settings.                                                             
+  350    Parameter #1 $text of function esc_html expects string, string|false given.                                                    
+  403    Parameter #3 $meta_value of function wc_add_order_item_meta expects string, int given.                                         
+  582    Default value of the parameter #2 $cart_item ('') of method TM_EPO_CP_DPD::cart_item_price() is incompatible with type array.  
+  628    Result of && is always true.                                                                                                   
+  628    Variable $float_original_price_to_display in isset() always exists and is not nullable.                                        
+  628    Variable $float_price_to_display in isset() always exists and is not nullable.                                                 
+  654    Call to static method get() on an unknown class RP_WCDPD_Settings.                                                             
+  661    Call to static method get_cart_item_price_for_display() on an unknown class RP_WCDPD_WC_Cart.                                  
+  670    Access to an undefined property object::$pricing_settings.                                                                     
+  672    Access to an undefined property object::$apply.                                                                                
+  673    Call to an undefined method object::apply_rule_to_item().                                                                      
+  681    Access to an undefined property object::$applied.                                                                              
+  686    Access to an undefined property object::$pricing_settings.                                                                     
+  690    Access to an undefined property object::$apply.                                                                                
+  698    Call to an undefined method object::apply_rule_to_item().                                                                      
+  706    Access to an undefined property object::$applied.                                                                              
+  730    Call to static method get_instance() on an unknown class RP_WCDPD.                                                             
+  734    Constant RP_WCDPD_VERSION not found.                                                                                           
+  735    Constant RP_WCDPD_VERSION not found.                                                                                           
+  750    Call to static method validate_rule() on an unknown class RP_WCDPD_Pricing.                                                    
+  752    Call to an undefined method object::user_matches_rule().                                                                       
+  756    Call to an undefined method object::get_product_categories().                                                                  
+  756    Call to an undefined method object::user_matches_rule().                                                                       
+  760    Call to an undefined method object::get_product_categories().                                                                  
+  760    Call to an undefined method object::user_matches_rule().                                                                       
+  764    Call to an undefined method object::user_matches_rule().                                                                       
+  768    Call to an undefined method object::user_matches_rule().                                                                       
+  773    Call to an undefined method object::user_matches_rule().                                                                       
+  777    Call to an undefined method object::get_product_categories().                                                                  
+  777    Call to an undefined method object::user_matches_rule().                                                                       
+  781    Call to an undefined method object::get_product_categories().                                                                  
+  781    Call to an undefined method object::user_matches_rule().                                                                       
+  785    Call to an undefined method object::user_matches_rule().                                                                       
+  789    Call to an undefined method object::user_matches_rule().                                                                       
+  806    Call to static method get_applicable_rules_for_product() on an unknown class RP_WCDPD_Product_Pricing.                         
+  842    Call to static method product_variation_get_parent() on an unknown class RightPress_WC_Legacy.                                 
+  849    Call to static method get_applicable_rules_for_product() on an unknown class RP_WCDPD_Product_Pricing.                         
+  877    Call to static method get() on an unknown class RP_WCDPD_Settings.                                                             
+  944    Call to static method get() on an unknown class RP_WCDPD_Settings.                                                             
+  1016   Call to static method wc_get_product() on an unknown class RightPress_Helper.                                                  
+  1024   Call to static method wc_get_product() on an unknown class RightPress_Helper.                                                  
+  1039   Variable $product_variations might not be defined.                                                                             
+  1041   Call to static method wc_get_product() on an unknown class RightPress_Helper.                                                  
+  1053   Call to static method wc_get_product() on an unknown class RightPress_Helper.                                                  
+  1053   Variable $last_product_variation might not be defined.                                                                         
+  1055   Variable $last_product_variation might not be defined.                                                                         
+ ------ ------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-easy-bookings.php  
+ ------ ----------------------------------------------------------------- 
+  12     Right side of || is always false.                                
+  103    Undefined variable: $_product                                    
+  250    Variable $cart_data in isset() is never defined.                 
+ ------ ----------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-elasticpress.php  
+ ------ ---------------------------------------------------------------- 
+  12     Right side of || is always false.                               
+ ------ ---------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-fpd.php  
+ ------ ------------------------------------------------------- 
+  12     Right side of || is always false.                      
+ ------ ------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-germanized.php  
+ ------ -------------------------------------------------------------- 
+  12     Right side of || is always false.                             
+ ------ -------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-measurement.php                                                                     
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+  12     Right side of || is always false.                                                                                                 
+  92     Function remove_filter invoked with 4 parameters, 2-3 required.                                                                   
+  92     Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'get_price_html') given.       
+  93     Function remove_filter invoked with 4 parameters, 2-3 required.                                                                   
+  93     Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'tm_woocommerce_get…') given.  
+ ------ ---------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-nyp.php  
+ ------ ------------------------------------------------------- 
+  12     Right side of || is always false.                      
+ ------ ------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-qtranslatex.php                                      
+ ------ --------------------------------------------------------------------------------------------------- 
+  12     Right side of || is always false.                                                                  
+  56     Parameter #2 $function_to_add of function add_filter expects callable(): mixed, 'qtranxf…' given.  
+ ------ --------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-quickview.php  
+ ------ ------------------------------------------------------------- 
+  12     Right side of || is always false.                            
+ ------ ------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------ 
+  Line   include/compatibility/classes/class-tm-epo-cp-store-exporter.php  
+ ------ ------------------------------------------------------------------ 
+  12     Right side of || is always false.                                 
+  59     Function woo_ce_get_extra_product_option_fields not found.        
+ ------ ------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------------------------------------------ 
+  Line   include/compatibility/classes/class-tm-epo-cp-subscriptions.php                                       
+ ------ ------------------------------------------------------------------------------------------------------ 
+  12     Right side of || is always false.                                                                     
+  221    Parameter #1 $text of function esc_html expects string, string|false given.                           
+  222    Parameter #1 $text of function esc_html expects string, string|false given.                           
+  223    Parameter #1 $text of function esc_html expects string, string|false given.                           
+  243    Call to static method is_subscription() on an unknown class WC_Subscriptions_Product.                 
+  245    Call to static method get_price_string() on an unknown class WC_Subscriptions_Product.                
+  255    Call to static method get_sign_up_fee() on an unknown class WC_Subscriptions_Product.                 
+  277    Call to static method get_price_string() on an unknown class WC_Subscriptions_Product.                
+  287    Call to static method get_sign_up_fee() on an unknown class WC_Subscriptions_Product.                 
+  341    If condition is always true.                                                                          
+  343    Right side of && is always true.                                                                      
+  534    Access to an undefined property object::$cpf_product_price.                                           
+  534    Access to an undefined property object::$element.                                                     
+  534    Access to an undefined property object::$per_product_pricing.                                         
+  534    Access to an undefined property object::$post_data.                                                   
+  534    Access to an undefined property object::$variation_id.                                                
+  538    Access to an undefined property object::$element.                                                     
+  539    Access to an undefined property object::$element.                                                     
+  540    Access to an undefined property object::$element.                                                     
+  541    Access to an undefined property object::$element.                                                     
+  542    Access to an undefined property object::$element.                                                     
+  543    Access to an undefined property object::$element.                                                     
+  544    Access to an undefined property object::$element.                                                     
+  545    Access to an undefined property object::$order_saved_element.                                         
+  546    Access to an undefined property object::$element.                                                     
+  549    Access to an undefined property object::$element.                                                     
+  550    Access to an undefined property object::$element.                                                     
+  552    Access to an undefined property object::$element.                                                     
+  553    Call to an undefined method object::fill_currencies().                                                
+  565    Access to an undefined property object::$cpf_product_price.                                           
+  565    Access to an undefined property object::$per_product_pricing.                                         
+  565    Access to an undefined property object::$post_data.                                                   
+  565    Access to an undefined property object::$variation_id.                                                
+  569    Strict comparison using === between int|string|false and null will always evaluate to false.          
+  579    Strict comparison using === between int|string|false and null will always evaluate to false.          
+  597    Access to an undefined property object::$order_saved_element.                                         
+  605    Call to an undefined method object::fill_currencies().                                                
+  624    Result of && is always false.                                                                         
+  779    Function wcs_get_subscription not found.                                                              
+  780    Class WC_Subscription not found.                                                                      
+  781    Access to property $order on an unknown class WC_Subscription.                                        
+  782    Access to property $id on an unknown class WC_Subscription.                                           
+  782    Call to static method get_item_by_product_id() on an unknown class WC_Subscriptions_Order.            
+  785    Call to static method get_subscription() on an unknown class WC_Subscriptions_Manager.                
+  787    Call to static method get_item_by_product_id() on an unknown class WC_Subscriptions_Order.            
+  910    Parameter #3 $meta_value of function wc_add_order_item_meta expects string, array<int, mixed> given.  
+  983    Call to static method get_price_string() on an unknown class WC_Subscriptions_Product.                
+  993    Call to static method get_sign_up_fee() on an unknown class WC_Subscriptions_Product.                 
+ ------ ------------------------------------------------------------------------------------------------------ 
+
+ ------ ------------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-theseoframework.php  
+ ------ ------------------------------------------------------------------- 
+  12     Right side of || is always false.                                  
+ ------ ------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  Line   include/compatibility/classes/class-tm-epo-cp-watcafvp.php                                                        
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+  13     Right side of || is always false.                                                                                 
+  55     Parameter #2 $function_to_remove of function remove_action expects callable(): mixed, 'ajax_add_to_cart…' given.  
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+
+ ------ --------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-woodeposits.php  
+ ------ --------------------------------------------------------------- 
+  15     Right side of || is always false.                              
+ ------ --------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------ 
+  Line   include/compatibility/classes/class-tm-epo-cp-wootours.php  
+ ------ ------------------------------------------------------------ 
+  13     Right side of || is always false.                           
+ ------ ------------------------------------------------------------ 
+
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/compatibility/classes/class-tm-epo-cp-wpml.php                                                                             
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+  12     Right side of || is always false.                                                                                                  
+  70     Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'filter_product_terms') given.  
+  71     Function remove_filter invoked with 4 parameters, 2-3 required.                                                                    
+  71     Parameter #2 $function_to_remove of function remove_filter expects callable(): mixed, array(mixed, 'product_options…') given.      
+  72     Function remove_action invoked with 4 parameters, 2-3 required.                                                                    
+  72     Parameter #2 $function_to_remove of function remove_action expects callable(): mixed, array(mixed, 'register_options…') given.     
+  112    Cannot access property $term_id on (array)|WP_Term.                                                                                
+  112    Function icl_object_id not found.                                                                                                  
+  118    Cannot access property $name on array|WP_Error|WP_Term|null.                                                                       
+  126    Access to offset mixed on an unknown class mix.                                                                                    
+  126    Constant WC_DELIMITER not found.                                                                                                   
+  127    Access to offset mixed on an unknown class mix.                                                                                    
+  127    Constant WC_DELIMITER not found.                                                                                                   
+  128    Constant WC_DELIMITER not found.                                                                                                   
+  128    Undefined variable: $wpml_attributes                                                                                               
+ ------ ----------------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-checkbox.php                                 
+ ------ -------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                               
+  33     Strict comparison using === between float and 0 will always evaluate to false.  
+  101    If condition is always true.                                                    
+  247    Variable $default_value in isset() always exists and is not nullable.           
+  410    Cannot access property $post_excerpt on (array)|WP_Post.                        
+  434    Cannot access property $post_excerpt on (array)|WP_Post.                        
+  466    Array has 2 duplicate keys with value 'label' ('label', 'label').               
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-color.php  
+ ------ ---------------------------------------------- 
+  9      Right side of || is always false.             
+ ------ ---------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-date.php                                                         
+ ------ ---------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                   
+  40     Binary operation "+" between string and 10 results in an error.                                     
+  127    Parameter #2 $str of function explode expects string, array|string given.                           
+  331    Parameter #1 $version1 of function version_compare expects string, string|false given.              
+  334    Variable $sep might not be defined.                                                                 
+  336    Variable $sep might not be defined.                                                                 
+  336    Variable $sep might not be defined.                                                                 
+  339    Variable $date_format might not be defined.                                                         
+  348    Cannot call method format() on DateTime|false.                                                      
+  349    Cannot call method format() on DateTime|false.                                                      
+  350    Cannot call method format() on DateTime|false.                                                      
+  352    Variable $sep might not be defined.                                                                 
+  379    Parameter #1 $month of function checkdate expects int, string given.                                
+  379    Parameter #2 $day of function checkdate expects int, string given.                                  
+  379    Parameter #3 $year of function checkdate expects int, string given.                                 
+  381    Right side of || is always true.                                                                    
+  382    Binary operation "+" between string and 10 results in an error.                                     
+  413    Parameter #1 $time of function date_create expects string|null, array<int, string>|string given.    
+  417    Variable $date_format might not be defined.                                                         
+  418    Variable $date_format might not be defined.                                                         
+  419    Cannot call method diff() on DateTime|false.                                                        
+  458    Parameter #1 $time of function date_create expects string|null, array<int, string>|string given.    
+  462    Variable $date_format might not be defined.                                                         
+  463    Variable $date_format might not be defined.                                                         
+  464    Cannot call method diff() on DateTime|false.                                                        
+  481    Parameter #1 $number of function abs expects float|int, float|int|string given.                     
+  483    Parameter #1 $number of function abs expects float|int, float|int|string given.                     
+  488    Parameter #2 $str of function explode expects string, array|string given.                           
+  502    Parameter #1 $time of function date_create expects string|null, (array<int, string>)|string given.  
+  510    Variable $date_format might not be defined.                                                         
+  511    Variable $date_format might not be defined.                                                         
+  515    Cannot call method diff() on DateTime|false.                                                        
+  529    Parameter #1 $number of function abs expects float|int, float|int|string given.                     
+  531    Parameter #1 $number of function abs expects float|int, float|int|string given.                     
+  536    Parameter #2 $str of function explode expects string, array|string given.                           
+  549    Parameter #1 $time of function date_create expects string|null, array<int, string>|string given.    
+  554    Variable $date_format might not be defined.                                                         
+  555    Variable $date_format might not be defined.                                                         
+  559    Cannot call method diff() on DateTime|false.                                                        
+ ------ ---------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-radio.php                                    
+ ------ -------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                               
+  33     Strict comparison using === between float and 0 will always evaluate to false.  
+  101    If condition is always true.                                                    
+  238    Variable $default_value in isset() always exists and is not nullable.           
+  417    Cannot access property $post_excerpt on (array)|WP_Post.                        
+  441    Cannot access property $post_excerpt on (array)|WP_Post.                        
+  473    Array has 2 duplicate keys with value 'url' ('url', 'url').                     
+ ------ -------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-range.php  
+ ------ ---------------------------------------------- 
+  9      Right side of || is always false.             
+ ------ ---------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-select.php                          
+ ------ ----------------------------------------------------------------------- 
+  9      Right side of || is always false.                                      
+  74     Variable $default_value in isset() always exists and is not nullable.  
+  108    Cannot access property $post_excerpt on array|WP_Post|null.            
+  130    Cannot access property $post_excerpt on array|WP_Post|null.            
+ ------ ----------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-textarea.php                                      
+ ------ ------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                    
+  79     Parameter #1 $string of function strlen expects string, array|string|null given.     
+  92     Parameter #1 $data of function utf8_decode expects string, array|string|null given.  
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-textfield.php                                     
+ ------ ------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                    
+  88     Parameter #1 $string of function strlen expects string, array|string|null given.     
+  100    Parameter #1 $data of function utf8_decode expects string, array|string|null given.  
+ ------ ------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-time.php                               
+ ------ -------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                         
+  41     Parameter #1 $str of function strrev expects string, array|string given.  
+ ------ -------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-upload.php                                
+ ------ ----------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                            
+  155    Variable $value might not be defined.                                        
+  156    Variable $value might not be defined.                                        
+  200    Parameter #1 $text of function esc_html expects string, array|string given.  
+ ------ ----------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields-variations.php  
+ ------ --------------------------------------------------- 
+  9      Right side of || is always false.                  
+ ------ --------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------- 
+  Line   include/fields/class-tm-epo-fields.php                                                        
+ ------ ---------------------------------------------------------------------------------------------- 
+  12     Right side of || is always false.                                                             
+  42     Variable $_POST in isset() always exists and is not nullable.                                 
+  247    Strict comparison using === between int|string|false and null will always evaluate to false.  
+  257    Strict comparison using === between int|string|false and null will always evaluate to false.  
+  267    Strict comparison using === between int|string|false and null will always evaluate to false.  
+  364    Strict comparison using === between int|string|false and null will always evaluate to false.  
+  374    Strict comparison using === between int|string|false and null will always evaluate to false.  
+ ------ ---------------------------------------------------------------------------------------------- 
+
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+  Line   include/functions/compatibility-functions.php                                                                               
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+  13     Right side of || is always false.                                                                                           
+  19     Parameter #1 $path of function basename expects string, array|string|null given.                                            
+  66     PHPDoc tag @param has invalid value ($product): Unexpected token "$product", expected TOKEN_IDENTIFIER at offset 51         
+  112    Function tc_get_price_excluding_tax() should return float but returns string.                                               
+  153    Function tc_get_price_including_tax() should return float but returns string.                                               
+  168    Call to function is_object() with null will always evaluate to false.                                                       
+  169    Call to function is_callable() with array(*NEVER*, 'get_type') will always evaluate to false.                               
+  190    PHPDoc tag @param has invalid value ($product): Unexpected token "$product", expected TOKEN_IDENTIFIER at offset 38         
+  199    Access to an undefined property object::$id.                                                                                
+  216    PHPDoc tag @param has invalid value ($product): Unexpected token "$product", expected TOKEN_IDENTIFIER at offset 40         
+  235    PHPDoc tag @param has invalid value ($product): Unexpected token "$product", expected TOKEN_IDENTIFIER at offset 45         
+  286    PHPDoc tag @param has invalid value ($post_id): Unexpected token "$post_id", expected TOKEN_IDENTIFIER at offset 44         
+  296    Parameter #1 $post_id of function get_post_meta expects int, float|int|string given.                                        
+  324    PHPDoc tag @param has invalid value ($meta_key): Unexpected token "$meta_key", expected TOKEN_IDENTIFIER at offset 74       
+  324    PHPDoc tag @param has invalid value ($meta_value): Unexpected token "$meta_value", expected TOKEN_IDENTIFIER at offset 102  
+  324    PHPDoc tag @param has invalid value ($post_id): Unexpected token "$post_id", expected TOKEN_IDENTIFIER at offset 47         
+  337    Parameter #1 $post_id of function update_post_meta expects int, float|int|string given.                                     
+  359    PHPDoc tag @param has invalid value ($meta_key): Unexpected token "$meta_key", expected TOKEN_IDENTIFIER at offset 74       
+  359    PHPDoc tag @param has invalid value ($post_id): Unexpected token "$post_id", expected TOKEN_IDENTIFIER at offset 47         
+  372    Parameter #1 $post_id of function delete_post_meta expects int, float|int|string given.                                     
+  395    PHPDoc tag @param has invalid value ($meta_key): Unexpected token "$meta_key", expected TOKEN_IDENTIFIER at offset 67       
+  395    PHPDoc tag @param has invalid value ($meta_value): Unexpected token "$meta_value", expected TOKEN_IDENTIFIER at offset 93   
+  395    PHPDoc tag @param has invalid value ($post_id): Unexpected token "$post_id", expected TOKEN_IDENTIFIER at offset 42         
+  408    Parameter #1 $post_id of function add_post_meta expects int, float|int|string given.                                        
+  428    PHPDoc tag @param has invalid value ($post_id): Unexpected token "$post_id", expected TOKEN_IDENTIFIER at offset 46         
+  428    Return typehint of function tc_get_attributes() has invalid type mix.                                                       
+  436    Variable $product might not be defined.                                                                                     
+  437    Call to an undefined method object::get_attributes().                                                                       
+  458    PHPDoc tag @param has invalid value ($att): Unexpected token "$att", expected TOKEN_IDENTIFIER at offset 67                 
+  458    PHPDoc tag @param has invalid value ($order): Unexpected token "$order", expected TOKEN_IDENTIFIER at offset 49             
+  484    PHPDoc tag @param has invalid value ($item): Unexpected token "$item", expected TOKEN_IDENTIFIER at offset 45               
+  484    Return typehint of function tc_get_product_from_item() has invalid type product.                                            
+  488    Call to an undefined method object::get_product().                                                                          
+  490    Call to an undefined method object::get_product_from_item().                                                                
+  508    PHPDoc tag @param has invalid value ($item): Unexpected token "$item", expected TOKEN_IDENTIFIER at offset 68               
+  508    Return typehint of function tc_order_get_price_excluding_tax() has invalid type product.                                    
+  522    Function tc_order_get_price_excluding_tax() should return product but returns float.                                        
+  527    Negated boolean expression is always false.                                                                                 
+  528    Function tc_order_get_price_excluding_tax() should return product but returns float.                                        
+  571    Variable $state might not be defined.                                                                                       
+  572    Variable $postcode might not be defined.                                                                                    
+  573    Variable $city might not be defined.                                                                                        
+  589    Call to method is_taxable() on an unknown class product.                                                                    
+ ------ ---------------------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------- 
+  Line   include/functions/epo-functions.php                                                                
+ ------ --------------------------------------------------------------------------------------------------- 
+  9      Right side of || is always false.                                                                  
+  113    Parameter #3 $subject of function str_replace expects array|string, string|null given.             
+  187    Parameter #1 $var_array of function extract is passed by reference, so it expects variables only.  
+  198    Undefined variable: $decimal_separator                                                             
+  198    Undefined variable: $decimal_separator                                                             
+  198    Undefined variable: $decimals                                                                      
+  198    Undefined variable: $decimals                                                                      
+  198    Undefined variable: $thousand_separator                                                            
+  198    Undefined variable: $thousand_separator                                                            
+  200    Undefined variable: $decimals                                                                      
+  204    Undefined variable: $currency                                                                      
+  204    Undefined variable: $price_format                                                                  
+  207    Undefined variable: $ex_tax_label                                                                  
+ ------ --------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------ 
+  Line   include/functions/wc-functions.php  
+ ------ ------------------------------------ 
+  9      Right side of || is always false.   
+ ------ ------------------------------------ 
+
+ ------ ------------------------------------------------ 
+  Line   include/widgets/class-tm-epo-widget-action.php  
+ ------ ------------------------------------------------ 
+  11     Right side of || is always false.               
+  41     Undefined variable: $before_widget              
+  45     Undefined variable: $after_widget               
+ ------ ------------------------------------------------ 
+
+ [ERROR] Found 1152 errors                                                                                              
+
