@@ -1,0 +1,43 @@
+# See options in https://github.com/phpstan/phpstan/blob/master/conf/config.neon
+services:
+    -
+        class: PHPStan\WordPress\IsWpErrorFunctionTypeSpecifyingExtension
+        tags:
+            - phpstan.typeSpecifier.functionTypeSpecifyingExtension
+    -
+        class: PHPStan\WordPress\WpThemeMagicPropertiesClassReflectionExtension
+        tags:
+            - phpstan.broker.propertiesClassReflectionExtension
+    -
+        class: PHPStan\WordPress\RedirectCanonicalDynamicFunctionReturnTypeExtension
+        tags:
+            - phpstan.broker.dynamicFunctionReturnTypeExtension
+parameters:
+    level: 0
+    paths:
+        - %currentWorkingDirectory%/include/
+        - %currentWorkingDirectory%/admin/
+    excludes_analyse:
+        - %currentWorkingDirectory%/admin/views/
+    autoload_files:
+        - %currentWorkingDirectory%/vendor/giacocorsiglia/wordpress-stubs/wordpress-stubs.php
+        - %currentWorkingDirectory%/test/phpstan-bootstrap.php
+        - %currentWorkingDirectory%/test/wc-stubs.php
+        - %currentWorkingDirectory%/include/functions/epo-functions.php
+        - %currentWorkingDirectory%/include/functions/compatibility-functions.php
+        - %currentWorkingDirectory%/include/functions/wc-functions.php
+        # Conditional class declaration
+        - %currentWorkingDirectory%/admin/class-tm-epo-admin-settings.php
+    autoload_directories:
+        - %currentWorkingDirectory%/include/
+        - %currentWorkingDirectory%/admin/
+    ignoreErrors:
+        - '#^Function apply_filters invoked with [3456789] parameters, 2 required\.$#'
+        - '#^Function apply_filters invoked with 1[0123] parameters, 2 required\.$#'
+        - '#^Function do_action invoked with [3456] parameters, 1-2 required\.$#'
+        - '#^Function current_user_can invoked with 2 parameters, 1 required\.$#'
+        - '#^Function add_query_arg invoked with [123] parameters, 0 required\.$#'
+#        - '/^Parameter #2 \$deprecated of function load_plugin_textdomain expects string, false given\.$/'
+        # TODO: TM
+        - '#^Access to an undefined property TM_#'
+        - '#^Access to an undefined property \$this\(TM_#'
